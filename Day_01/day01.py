@@ -15,5 +15,5 @@ sum_list.sort(reverse=True)
 
 top_sum = sum_list[0] + sum_list[1] + sum_list[2]
 
-print(sum_list[0], sum_list[1], sum_list[2])
-print(top_sum)
+print("First: ", sum_list[0], "\nSecond: ", sum_list[1], "\nThird: ", sum_list[2])
+print("\nSum: ", top_sum)
