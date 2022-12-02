@@ -50,14 +50,3 @@ for index, zug in enumerate(list):
 
 print(sum(points))
 print(sum(points2))
-
-
-
-
-# 1 for Rock, 2 for Paper, and 3 for Scissors
-# 0 if you lost, 3 if the round was a draw, and 6 if you won
-
-# X for Rock, Y for Paper, and Z for Scissors
-# A for Rock, B for Paper, and C for Scissors
-
-# X means you need to lose, Y means you need to end the round in a draw, and Z means you need to win.
