@@ -42,18 +42,25 @@ for element in ship:
 for index, move in enumerate(moves):
     moves[index] = re.findall(r'\d+', move)
 
-
-for move in moves:
+#Task 1
+""" for move in moves:
     for i in range(int(move[0])):
         container[int(move[2]) - 1].insert(0, container[int(move[1]) - 1][0])
+        del container[int(move[1]) - 1][0] """
+
+#Task 2
+for move in moves:
+    for i in range(int(move[0])):
+        container[int(move[2]) - 1].insert(i, container[int(move[1]) - 1][0])
         del container[int(move[1]) - 1][0]
+        
 
-task1 = ''
+task = ''
 for c in container:
-    task1 = task1 + c[0]
+    task = task + c[0]
 
 
-print(task1)
+print(task)
 
 
 
