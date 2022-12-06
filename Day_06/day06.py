@@ -22,8 +22,13 @@ def findDistinctCharacters(length):
         #print(f"index:{counter}\t{test}")
 
         if hasNoDuplicates(test) and counter >= length:
+<<<<<<< HEAD
             return(counter + 1)
 
+=======
+            print(counter + 1)
+            break
+>>>>>>> 15c884c2bf20dc8a31b01e77d9bed1efeb09c9da
 
 print(f"Task1: {findDistinctCharacters(4)}\tTask2: {findDistinctCharacters(14)}")
 
